@@ -37,6 +37,9 @@ June 2019 LeRoy Miller
     Once it's uploaded, you should be able to upload a new config.json and   
     new firmware over the air as/if needed.  
     
+## Libraries
+
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
 
 ## Installation
 

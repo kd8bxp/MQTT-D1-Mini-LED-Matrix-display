@@ -49,18 +49,18 @@
  
  
 #include <ESP8266WiFi.h>
-#include <PubSubClient.h>
+#include "src/PubSubClient/PubSubClient.h"
 #include <SPI.h>             
-#include <Adafruit_GFX.h>
-#include <Max72xxPanel.h>
+#include "src/Adafruit_GFX/Adafruit_GFX.h"
+#include "src/Max72xxPanel/Max72xxPanel.h"
 #include <ESP8266HTTPUpdateServer.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 #include <DNSServer.h>
-#include <WiFiManager.h>         //https://github.com/tzapu/WiFiManager
-#include <ArduinoJson.h>
+#include "src/WiFiManager/WiFiManager.h"         //https://github.com/tzapu/WiFiManager
+#include "src/ArduinoJson5/ArduinoJson.h"
 #include "FS.h"
 
 ESP8266WebServer httpServer(80);
